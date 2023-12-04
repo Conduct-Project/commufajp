@@ -1,0 +1,115 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9">
+<meta http-equiv="AM-Template" content="standard/html/index.html">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Language" content="ja-JP">
+<meta name="format-detection" content="telephone=no">
+<title>コミュファ光 Webメール</title>
+<link href="image/favicon.ico" rel="shortcut icon" />
+
+<script type="text/javascript" src="js/prototype.js"></script>
+<script type="text/javascript" src="js/activemail.js"></script>
+
+
+<link rel="stylesheet" type="text/css" href="https://mail.commufa.jp/am_viz/common/standard/popup.css?6.5901008441" />
+<link rel="stylesheet" type="text/css" href="https://mail.commufa.jp/am_viz/common/standard/screen.css" media="screen,print">
+</head>
+
+<body topmargin="0" leftmargin="0" text="#000000" bgcolor="#FFFFFF">
+<noscript>このページではJavaScriptを使用しています。<br />ご使用のブラウザでJavaScriptを有効にしてご利用下さい。</noscript>
+
+<div id="ajax_content" style="position:absolute;visibility:hidden;display:none;"></div>
+  <form name="login" method="POST" action="#" onsubmit="return false;">
+    <input type="hidden" name="login_page_lang" value="ja">
+    <input type="hidden" name="charset" value="UTF-8">
+    <input type="hidden" name="http_user_agent" value="">
+
+<div id="dHMWrapper">
+        <div id="dHeader">
+                <div id="dSiteID">
+                        <h1><img src="image/img_logo.png" alt="コミュファ光" width="163" height="46"></h1>
+                </div>
+        </div>
+        <div id="dMain">
+
+                <div id="dContents">
+                        <div id="dContentsHomeCol">
+                         <div id="dContentsHomeColL">
+                                <div class="dModBoxBackImg2">
+                                        <div class="dModBoxTopInner">
+                                                <div class="dModBoxInner">
+                                                        <h2><img src="image/h2_webmail.png" alt="Webメール" width="161" height="29"></h2>
+                                                        <p>
+                                                            <a href="#" tabindex="5" class="aModEleDef">携帯電話でご利用の方はこちら</a>
+                                                            <a href="#" tabindex="6" class="aModEleDef">スマートフォンでご利用の方はこちら</a>
+                                                        </p>
+                                                        <div class="dModLayImgLeft">
+                                                                <div class="dModLayImg">
+                                                                        <div><img src="image/ico_mail.png" width="66" height="56" alt=""></div>
+                                                                </div>
+                                                                <div class="dModLayText">
+                                                                        <h3><img src="image/h3_mailaddress.png" alt="メールアドレス" width="123" height="17"></h3>
+                                                                        <input type="text" name="am_authid" id="user" tabindex="1" class="inModEleTextL" maxlength="1024" style="ime-mode: disabled;" autocomplete="off" value="">
+                                                                </div>
+                                                        </div>
+                                                        <div class="dModLayImgLeft">
+                                                                <div class="dModLayImg">
+                                                                        <div><img src="image/ico_pass.png" width="65" height="53" alt=""></div>
+                                                                </div>
+                                                                <div class="dModLayText">
+                                                                        <h3><img src="image/h3_password.png" alt="メールパスワード" width="140" height="18"></h3>
+                                                                        <input type="password" name="am_authpasswd" id="pass" tabindex="2" class="inModEleTextL" maxlength="1024" style="ime-mode: disabled;" autocomplete="off" value="">
+                                                                        
+                                                                                      <p class="lastElement"><br /><input type="checkbox" name="save_authinfo" id="save_authinfo" value="on" tabindex="3" ><label for="save_authinfo">&nbsp;ログイン情報を保持する</label>
+                                                                                      </p>
+                                                                        
+                                                                        <p class="lastElement"><a href="#" target="_blank" class="aModEleDef" tabindex="7">メールパスワードをお忘れの方はこちら</a></p>
+                                                                </div>
+                                                        </div>
+                                                        <p class="pModEleCenter lastElement"><input type="image" src="image/btn_login_df.png" onclick="submitForm('login');" tabindex="4" alt="ログイン" class="swpImg" name="submit" value="ログイン">
+                                                        </p>
+                                                </div>
+                                        </div>
+                                </div>
+                         </div>
+                         <div id="dContentsHomeColR">
+                                <div class="dModBoxPadding">
+                                        <div class="dModBoxInner">
+                                                <div class="dModLayImgRight">
+                                                        <div class="dModLayImg">
+                                                                <div><img src="image/img_qrcode_s.gif" width="108" height="108" alt=""></div>
+                                                        </div>
+                                                        <div class="dModLayText">
+                                                                <div><img src="image/img_mobileok_s.gif" alt="Webメールはスマートフォンからご利用いただけます。" width="187" height="108"></div>
+                                                        </div>
+                                                </div>
+                                                <div class="dMobile">
+                                                        <p class="lastElement">https://mail.commufa.jp/am_bin/slogin</p>
+                                                </div>
+                                        </div>
+                                </div>
+                                <p class="lastElement">ご注意</p>
+                                <ul class="ulModEleDisc">
+                                        <li>セキュリティ確保のため、ログイン中に一定時間操作を行わない場合は自動的にログアウトします。</li>
+                                        <li>不正利用防止のため5回連続してログインに失敗した場合、一時的に利用できなくなります。この場合は10分間以上時間をあけてログインしてください。</li>
+                                        <li>メールに関する設定変更は、ログイン後「ツール」メニューから行えます。</li>
+                                        <li>本画面はパソコン専用です。スマートフォン等からは正しくご利用いただけない場合がございます。<A Href="#">（対応ブラウザについて）</A></li>
+                                        <li>「ログイン情報を保持する」にチェックを入れると、次回からパスワード入力なしでログインできるようになります。お客さまご本人以外が利用される端末（ネットカフェ設置のパソコン等）ではセキュリティ確保のため、お控えください。</li>
+                                        <li>同一フォルダに多数のメールを保存したままにすると、Webメールの動作が重くなり閲覧できなくなる可能性がございます。動作が重くなってきた場合はメールの削除をご検討ください。<A Href="#">(詳しくはこちら)</A></li>
+                                </ul>
+                         </div>
+                        </div>
+                </div>
+        </div>
+</div>
+<div id="dFWrapper">
+        <div id="dFooter">
+                <div id="dFooterID"><img src="image/img_foot_id.gif" alt="中部テレコミュニケーション株式会社" width="194" height="12"></div>
+                <div id="dCopyRight"><img src="image/img_copy.gif" alt="Copyright (C) CHUBU TELECOMMUNICATIONS CO.,INC All Rights Reserved."></div>
+        </div>
+</div>
+  </form>
+</body>
+</html>

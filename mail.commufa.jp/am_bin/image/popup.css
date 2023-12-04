@@ -1,0 +1,149 @@
+/**
+ * styles for virtual popup windows.
+ */
+
+/**
+ * main panel of virtual popup window.
+ * @script position, top, left, width, height
+ */
+.amvpop_panel {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #3973ad;
+  background-color: white;
+  overflow: hidden;
+  padding: 2px;
+}
+
+/**
+ * shadow of main panel.
+ * @script position, width, height, opacity
+ */
+.amvpop_shadow {
+  top: 3px;
+  left: 3px;
+  background-color: gray;
+  overflow: hidden;
+}
+
+/**
+ * title bar of virtual popup window.
+ * @script position, width, height
+ */
+.amvpop_title {
+  padding: 3px 0 0 10px;
+  overflow: hidden;
+  color: white;
+  background-color : #3973ad;
+  cursor: default;
+  font-size: 12px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+/**
+ * main content of virtual popup window.
+ * @script position, width, height
+ */
+.amvpop_content {
+  cursor: default;
+  padding: 5px 6px 0 6px;
+  overflow: auto;
+  background-color: white;
+  font-size: 14px;
+}
+
+/**
+ * container of buttons at bottom of virtual popup window.
+ * @script position, width, height
+ */
+.amvpop_buttons {
+  padding: 12px 0 0 10px;
+  cursor: default;
+  background-color: white;
+  font-size: 10px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+/**
+ * container of input file name of virtual popup window.
+ */
+.amvpop_form {
+  margin-top : 0px;
+  margin-bottom : 10px;
+  text-align : center;
+}
+
+/**
+ * status bar of virtual popup window.
+ * @script position, width, height
+ */
+.amvpop_status {
+  padding: 5px 10px 0 10px;
+  cursor: default;
+  background-color: white;
+  font-size: 10px;
+  line-height : 1;
+  text-align: center;
+}
+
+/**
+ * close button in title bar.
+ * @script none
+ */
+.amvpop_close {
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  width: 16px;
+  height: 16px;
+  cursor: default;
+  overflow: hidden;
+  background-image: url(closebox.gif);
+  background-repeat: no-repeat;
+}
+
+/**
+ * resize icon at lower-right of virtual popup window.
+ * @script none
+ */
+.amvpop_resize {
+  position: absolute;
+  right: 2px;
+  bottom: 2px;
+  width: 7px;
+  height: 7px;
+  cursor: se-resize;
+  overflow: hidden;
+  background-image: url(resize7blue.gif);
+  background-repeat: no-repeat;
+}
+
+/**
+ * warning message in status bar.
+ * @script none
+ */
+.amvpop_status_warn {
+  color: red;
+  font-weight: bold;
+}
+
+/**
+ * error message in status bar.
+ * @script none
+ */
+.amvpop_status_error {
+  color: red;
+  font-weight: bold;
+}
+
+/**
+ * information message in status bar.
+ * @script none
+ */
+.amvpop_status_info {
+  color: black;
+  font-weight: bold;
+}
+
