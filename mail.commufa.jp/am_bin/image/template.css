@@ -1,0 +1,215 @@
+@charset "utf-8";
+
+/* screen.css */
+
+@import "common.css";
+@import "template.css";
+@import "module.css";
+@import "clearfix.css";[iij706@TEVAWEB01T standard]$ cat common.css 
+@charset "shift_jis";
+
+/* common.css */
+
+/*----------------------------------------------*/
+/*   yҏW        z                                 */
+/*                                              */
+/*----------------------------------------------*/
+a { color: #083090; text-decoration: none; }
+a:link { color: #083090; text-decoration: none; }
+a:visited { color: #083090; text-decoration: none; }
+a:active { color: #083090; text-decoration: underline; }
+a:hover { color: #083090; text-decoration: underline; }
+a:focus { color: #083090; text-decoration: underline; }
+
+/*----------------------------------------------*/
+/*                                              */
+/* base                                         */
+/*                                              */
+/*----------------------------------------------*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,fieldset,legend,input,textarea,p,table,tr,th,td {
+        margin: 0;
+        padding: 0;
+}
+table,tr,th,td,fieldset,img {
+        border: 0;
+}
+address,caption,em,strong,th {
+        font-style: normal;
+        font-weight: normal;
+}
+ul li {
+        list-style: none;
+}
+caption,th {
+        text-align: left;
+}
+h1,h2,h3,h4,h5,h6 {
+        font-size: 1em;
+        font-weight: normal;
+}
+sup {
+        vertical-align: text-top;
+}
+sub {
+        vertical-align: text-bottom;
+}
+
+/*----------------------------------------------*/
+/*                                              */
+/* layout                                       */
+/*                                              */
+/*----------------------------------------------*/
+div#dContents .lastElement {
+        margin-bottom: 0;
+}
+
+/*----------------------------------------------*/
+/*                                              */
+/* font                                         */
+/*                                              */
+/*----------------------------------------------*/
+body {
+        font-size: 75%;                                          CI',Meiryo,'lr oSVbN',Osaka,sans-serif;
+}       font-family: 'q MmpS Pro W3','Hiragino Kaku Gothic Pro','
+
+/*----------------------------------------------*/
+/*                                              */
+/* contents                                     */
+/*                                              */
+/*----------------------------------------------*/
+div#dContents {
+}
+                div#dContents h1,
+                div#dContents h2,
+                div#dContents h3,
+                div#dContents h4,
+                div#dContents h5,
+                div#dContents h6,
+                div#dContents li,
+                div#dContents dt,
+                div#dContents dd,
+                div#dContents td,
+                div#dContents th,
+                div#dContents a,
+                div#dContents span,
+                div#dContents strong {
+                        line-height: 1.4;
+                }
+                div#dContents p,
+                div#dContents p a,
+                div#dContents p span,
+                div#dContents p strong {
+                        line-height: 1.6;
+                }
+
+
+[iij706@TEVAWEB01T standard]$ cat template.css
+@charset "shift_jis";
+
+/* template.css */
+
+/*----------------------------------------------*/
+/*                                              */
+/* base                                         */
+/*                                              */
+/*----------------------------------------------*/
+body {
+        background-image:url(../../ja/standard/html/image/bg_body.jpg);
+        background-position:left top;
+        background-repeat:repeat-x;
+        background-color: #FFFFFF;
+        color: #333333;
+}
+div#dHeader,
+div#dMain,
+div#dFooter {
+        width: 950px;
+}
+
+/* center option
+--------------------------------------*/
+body {
+        text-align: center;
+}
+div#dHeader,
+div#dMain,
+div#dFooter{
+        margin-right: auto;
+        margin-left: auto;
+        text-align: left;
+}
+
+/*----------------------------------------------*/
+/*                                              */
+/* wrapper option                               */
+/*                                              */
+/*----------------------------------------------*/
+div#dHMWrapper {
+        background-image: url(../../ja/standard/html/image/bg_main.jpg);
+        background-position:center top;
+        background-repeat:no-repeat;
+}
+
+div#dFWrapper {
+        background-color:#FFFFFF;
+        border-top: 1px solid #DDDDDD;
+}
+
+
+/*----------------------------------------------*/
+/*                                              */
+/* header                                       */
+/*                                              */
+/*----------------------------------------------*/
+div#dHeader {
+}
+div#dSiteID {/* iewin56.css */
+        float: left;
+        width: 156px;
+        padding: 12px 0 17px 0;
+}
+
+/*----------------------------------------------*/
+/*                                              */
+/* main                                         */
+/*                                              */
+/*----------------------------------------------*/
+div#dMain {
+        text-align: left;
+        margin-bottom: 29px;
+}
+
+/*----------------------------------------------*/
+/*                                              */
+/* contents                                     */
+/*                                              */
+/*----------------------------------------------*/
+
+/* home */
+div#dContents {
+        float: none;
+        width: 948px;
+        padding-left: 2px;
+}
+
+/*----------------------------------------------*/
+/*                                              */
+/* footer                                       */
+/*                                              */
+/*----------------------------------------------*/
+div#dFooter {
+}
+
+/* footer id */
+div#dFooterID {
+        float: left;
+        padding: 16px 0 29px;
+}
+
+/* copyright */
+div#dCopyRight {
+        float: right;
+        padding: 16px 0;
+}
+
+

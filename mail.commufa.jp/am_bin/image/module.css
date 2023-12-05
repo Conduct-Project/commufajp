@@ -1,0 +1,233 @@
+@charset "shift_jis";
+
+/* module.css */
+
+/*----------------------------------------------*/
+/*                                              */
+/* h                                            */
+/*                                              */
+/*----------------------------------------------*/
+
+/* h bottom margin
+--------------------------------------*/
+div#dContents h2{
+        margin-bottom: 12px;
+}
+
+div#dContents h3{
+        margin-bottom: 7px;
+}
+
+/*----------------------------------------------*/
+/*                                              */
+/* p                                            */
+/*                                              */
+/*----------------------------------------------*/
+
+/* p bottom margin
+--------------------------------------*/
+div#dContents p {
+        margin-bottom: 29px;
+}
+div#dContents table p {
+        margin-bottom: 5px;
+}
+/* p style
+--------------------------------------*/
+/* center */
+div#dContents p.pModEleCenter {
+        text-align: center;
+}
+
+/*----------------------------------------------*/
+/*                                              */
+/* a                                            */
+/*                                              */
+/*----------------------------------------------*/
+
+/* a bottom margin
+--------------------------------------*/
+div#dContents a {
+}
+
+/* a style
+--------------------------------------*/
+/* default */
+div#dContents a.aModEleDef {
+        background-image: url(../../ja/standard/html/image/ico_arrow_right.gif);
+        background-position: left 0.3em;
+        background-repeat: no-repeat;
+        padding: 0 0 4px 12px;
+}
+
+/*----------------------------------------------*/
+/*                                              */
+/* list                                         */
+/*                                              */
+/*----------------------------------------------*/
+/* ul style
+--------------------------------------*/
+/* disc */
+ul.ulModEleDisc {
+        margin-bottom: 20px;
+}
+                ul.ulModEleDisc li {
+                        margin: 0 0 2px 16px;
+                        padding-left: 0;
+                        list-style: disc;
+                }
+
+/*----------------------------------------------*/
+/*                                              */
+/* form                                         */
+/*                                              */
+/*----------------------------------------------*/
+
+input.inModEleTextL{
+        width:410px;
+        font-size:14px;
+        padding:5px 5px;
+        border:solid 1px #CCCCCC;
+}
+input.inModEleTextM{
+        width:216px;
+        margin-bottom:10px;
+        padding:5px 5px;
+        border:solid 1px #CCCCCC;
+        height:15px;
+}
+
+input.inActive {
+        background-color: #F7FBFF;
+        border:solid 1px #B2DEFF;
+}
+
+/*----------------------------------------------*/
+/*                                              */
+/* layout                                       */
+/*                                              */
+/*----------------------------------------------*/
+
+/* layout bottom margin
+--------------------------------------*/
+div.dModLayImgRight,
+div.dModLayImgLeft {
+}
+/* layout imgright
+--------------------------------------*/
+div.dModLayImgRight {
+}
+                div.dModLayImgRight div.dModLayImg {
+                        width: 108px;
+                        float: right;
+                        padding:20px 0 15px;
+                }
+                div.dModLayImgRight div.dModLayText {
+                        width: 187px;
+                        float: left;
+                        padding-top:20px;
+                }
+
+                div.dModLayImgRight div.dLogLayImg {
+                        width: 163px;
+                        float: right;
+                        padding-top:4px;
+                }
+                div.dModLayImgRight div.dLogLayText {
+                        width: 228px;
+                        float: left;
+                }
+
+/* layout imgleft
+--------------------------------------*/
+div.dModLayImgLeft {
+        padding-bottom:30px;
+}
+                div.dModLayImgLeft div.dModLayImg {
+                        width: 65px;
+                        float: left;
+                }
+                div.dModLayImgLeft div.dModLayText {
+                        width: 422px;
+                        float: right;
+                }
+
+/*----------------------------------------------*/
+/*                                              */
+/* box                                          */
+/*                                              */
+/*----------------------------------------------*/
+
+
+/* box backimg2
+--------------------------------------*/
+div.dModBoxBackImg2 {
+        background-image: url(../../ja/standard/html/image/bg_modboximg.gif);
+        background-repeat: repeat-y;
+        width: 582px;
+        margin-bottom: 30px;
+}
+                div.dModBoxBackImg2 div.dModBoxTopInner {
+                        background-image: url(../../ja/standard/html/image/bg_modboximg_top.gif);
+                        background-position: left top;
+                        background-repeat: no-repeat;
+                }
+                div.dModBoxBackImg2 div.dModBoxInner {
+                        background-image: url(../../ja/standard/html/image/bg_modboximg_lower.gif);
+                        background-position: left bottom;
+                        background-repeat: no-repeat;
+                        padding: 13px 42px 30px;
+                }
+
+/* box dModBoxPadding
+--------------------------------------*/
+div.dModBoxPadding  {
+        background-image: url(../../ja/standard/html/image/bg_logboximg_lower.gif);
+        background-position: left bottom;
+        background-repeat: no-repeat;
+        background-color:#F4F4F4;
+        margin-bottom: 23px;
+        width: 337px;
+}
+                div.dModBoxPadding div.dModBoxInner {
+                        background-image: url(../../ja/standard/html/image/bg_logboximg_top.gif);
+                        background-position:center top;
+                        background-repeat: no-repeat;
+                        padding: 0 20px 19px;
+                }
+
+
+div.dMobile {
+        background-image:url(../../ja/standard/html/image/ico_mobile.gif);
+        background-position:left top;
+        background-repeat:no-repeat;
+        padding-left:13px;
+}
+                div.dMobile p{
+                        font-size:14px;
+                        font-weight:bold;
+                        font-family:Helvetica;
+                }
+
+
+/* contents home col
+--------------------------------------*/
+div#dContentsHomeCol {
+}
+                div#dContentsHomeColL {
+                        float: left;
+                        width: 582px;
+                }
+                div#dContentsHomeColR {
+                        float: right;
+                        width: 337px;
+                }
+
+/* Error message
+--------------------------------------*/
+div.ErrorMessage {
+    color: red;
+    padding-bottom: 0.5em;
+    text-align: center;
+}
+
